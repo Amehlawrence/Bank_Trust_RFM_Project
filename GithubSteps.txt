@@ -1,0 +1,24 @@
+# 1. Navigate to project
+cg C:\Users\HP\Desktop\Bank_Trust_RFM
+
+# Removing any previous commits, not to use everything, only use it because i want to show you from scratch.
+rmdir /s /q .git
+
+# 3. Configure git
+git config --global user.name "Amehlawrence"
+git config --global user.email "amehlawrence55@gmail.com"
+
+# 4. Initial repository
+git init
+
+# 5. Add and commit
+get add .
+git commit -m "initial commit: Bank Trust RFM Project"
+
+# 6. Add remote
+git remote add origin 
+
+
+# 7. Rename branch and push
+git branch -M main
+git push -U origin main
